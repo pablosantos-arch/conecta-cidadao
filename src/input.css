@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gov-blue: #13315C;
+  --color-gov-blue-hover: #0B2545;
+  --color-gov-green: #009B3A;
+  --color-gov-yellow: #FEDF00;
+  --color-gov-red: #D9251D;
+  --color-gov-red-hover: #B01C15;
+}
+
+@utility bg-hero-gov {
+  background-image: 
+    radial-gradient(circle at 88% 85%, #FEDF00 0%, #FEDF00 22%, transparent 22.5%),
+    linear-gradient(115deg, #13315C 0%, #13315C 58%, #009B3A 58.2%, #009B3A 100%);
+}
+
+@utility bg-hero-gov-mobile {
+  background-image: linear-gradient(180deg, #13315C 0%, #13315C 85%, #009B3A 85.2%, #009B3A 100%);
+}
+/*para a imagem de fundo */
+@utility bg-fundo-gov {
+  background-image: url('./img/banner-fundo.jpg');
+}
+
+/* Comportamento de tamanho */
+@utility bg-size-banner {
+  background-size: cover;
+}
+
+/* Comportamento de posição */
+@utility bg-pos-banner-mobile {
+  background-position: 25% center;
+}
+
+@utility bg-pos-banner {
+  background-position: center center;
+}

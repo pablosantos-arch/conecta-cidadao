@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="./output.css">
+    <title>Conecta Cidadão</title>
+</head>
+
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <!-- NAVBAR -->
+    <header class=" top-0 bg-white">
+        <div class="container mx-auto flex justify-between px-4 md:px-12 py-4">
+            
+            <!-- Logo Conecta Cidadão -->
+            <a href="#" class="flex items-center gap-3">
+                <img src="img/logo.png" alt="Conecta Cidadão" class="w-15 h-15">
+                <div class="font-bold text-gov-blue text-lg md:text-xl">
+                    Conecta
+                    <br>
+                    Cidadão
+                </div>
+            </a>
+
+            <!-- Botão Hambúrguer do prof. -->
+            <div class="md:hidden text-gov-blue text-2xl cursor-pointer">
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <!-- Menu Desktop (Escondido no Mobile)-->
+            <nav class="hidden md:flex">
+                <ul class="flex items-center space-x-8 font-semibold text-sm text-gray-700">
+                    <li><a href="#inicio" class="hover:text-gov-blue transition">Início</a></li>
+                    <li><a href="#sobre" class="hover:text-gov-blue transition">Sobre o Tema</a></li>
+                    <li><a href="#dados" class="hover:text-gov-blue transition">Dados e Estatísticas</a></li>
+                    <li><a href="#denuncia" class="hover:text-gov-red transition">Canais de Denúncia</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Barra tricolor embaixo do banner -->
+        <div class="grid grid-cols-4 h-2">
+            <div class="bg-gov-blue"></div>
+            <div class="bg-gov-green"></div>
+            <div class="bg-gov-yellow"></div>
+            <div class="bg-gov-red"></div>
+        </div>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <div id="inicio">
+        
+<!-- BANNER PRINCIPAL ( imagem CSS) -->
+        <section class="flex flex-col justify-center text-center md:text-left
+                        bg-fundo-gov bg-pos-banner-mobile md:bg-pos-banner
+                        bg-size-banner bg-no-repeat
+                        text-white py-16 md:py-28 px-4 md:px-12">
+            <div class="container mx-auto">
+                <div class="max-w-2xl">
+                    <h1 class="text-3xl md:text-5xl font-extrabold">
+                        Dignidade e Trabalho Decente para Todos
+                    </h1>
+                    <p class="md:text-lg text-gray-100 mb-8">
+                        Conheça seus direitos, acesse dados oficiais e denuncie o trabalho análogo à escravidão.
+                    </p>
+                    <a href="#denuncia" class="inline-block bg-gov-red hover:bg-gov-red-hover text-white font-bold rounded-full px-8 py-4 shadow-lg duration-300">
+                        DENUNCIAR AGORA (Sigiloso)
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+<section class="container mx-auto px-4 md:px-12 py-12 space-y-16">
+      
+      <!-- Seção 1: Sobre o tema -->
+      <div id="sobre">
+        <h2 class="text-xl md:text-2xl font-bold text-gray-900 mb-6">Sobre o Tema</h2>
+        
+        <!-- 3 Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+          <!-- Card 1 -->
+          <article class="bg-white rounded-xl border border-gray-100 overflow-hidden flex flex-col shadow-sm">
+            <img src="img/card1.png" alt="O que é Trabalho Escravo?" class="w-full h-36 md:h-44 object-cover">
+            <div class="p-4 md:p-5 flex-1 flex flex-col">
+              <h3 class="font-bold text-base md:text-lg text-gray-900 mb-2">
+                O que é Trabalho Escravo?
+              </h3>
+              <p class="text-sm text-gray-600 leading-relaxed flex-grow">
+                Conheça os elementos legais que caracterizam a condição análoga à escravidão no Brasil.
+              </p>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="bg-white rounded-xl border border-gray-100 overflow-hidden flex flex-col shadow-sm">
+            <img src="img/card2.png" alt="Sinais de Alerta" class="w-full h-36 md:h-44 object-cover">
+            <div class="p-4 md:p-5 flex-1 flex flex-col">
+              <h3 class="font-bold text-base md:text-lg text-gray-900 mb-2">
+                Sinais de Alerta
+              </h3>
+              <p class="text-sm text-gray-600 leading-relaxed flex-grow">
+                Identifique jornadas exaustivas, servidão por dívida, retenção de documentos e condições degradantes.
+              </p>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="bg-white rounded-xl border border-gray-100 overflow-hidden flex flex-col shadow-sm">
+            <img src="img/card3.png" alt="Como se Proteger" class="w-full h-36 md:h-44 object-cover">
+            <div class="p-4 md:p-5 flex-1 flex flex-col">
+              <h3 class="font-bold text-base md:text-lg text-gray-900 mb-2">
+                Como se Proteger
+              </h3>
+              <p class="text-sm text-gray-600 leading-relaxed flex-grow">
+                Saiba como verificar propostas de emprego e quais órgãos procurar para orientação segura.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+
+<hr class="my-10 border-gray-700 border-t-4">
+        
+<!-- Seção 2: dados e estatísticas -->
+    <div id="dados">
+        <h2 class="text-xl md:text-4xl font-bold text-gray-900 mb-8">Dados e Estatísticas</h2>
+
+        <div class="grid grid-cols-1 max-w-4xl mx-auto gap-8">
+          
+          <!-- Gráfico 1 -->
+          <div class="bg-white p-4 md:p-8 rounded-xl border border-gray-100 flex flex-col">
+            <h3 class="font-bold text-base md:text-xl text-gray-800 mb-6 text-center">
+              Gráfico dos resgatados pelo GEFM e pelas SRTb em 2020
+            </h3>
+            <img 
+              src="img/grafico1.png" 
+              alt="Gráfico dos resgatados pelo GEFM e pelas SRTb em 2020: 936 no total, sendo 374 (40%) pelo GEFM e 562 (60%) pelas Unidades Regionais" 
+              class="w-full h-auto object-contain rounded-lg">
+            <p class="text-xs md:text-sm text-gray-500 mt-4">Fonte: MTE / Radar SIT</p>
+          </div>
+
+<hr class="my-10 border-gray-700 border-t-4">
+
+          <!-- Gráfico 2 -->
+          <div class="bg-white p-4 md:p-8 rounded-xl border border-gray-100 flex flex-col">
+            <h3 class="font-bold text-base md:text-xl text-gray-800 mb-6 text-center">
+              Gráfico das ações totais do GEFM e das SRTb em 2020
+            </h3>
+            <img 
+              src="img/grafico3.png" 
+              alt="Gráfico das ações totais do GEFM e das SRTb em 2020: 276 ações no total, sendo 127 (46%) pelo GEFM e 149 (54%) pelas Unidades Regionais" 
+              class="w-full h-auto object-contain rounded-lg">
+            <p class="text-xs md:text-sm text-gray-500 mt-4">Fonte: MTE / Radar SIT</p>
+          </div>
+
+<hr class="my-10 border-gray-700 border-t-4">
+
+          <!-- Gráfico 3 -->
+          <div class="bg-white p-4 md:p-8 rounded-xl border border-gray-100 flex flex-col">
+            <h3 class="font-bold text-base md:text-xl text-gray-800 mb-6 text-center">
+              Total de ações fiscais / ações com resgates de trabalhadores em situação de trabalho escravo
+            </h3>
+            <img 
+              src="img/grafico2.png" 
+              alt="Total de ações: 276 (100%), sendo 64% ações sem resgate e 36% (100 ações) com resgate" 
+              class="w-full h-auto object-contain rounded-lg"
+            >
+            <p class="text-xs md:text-sm text-gray-500 mt-4">Fonte: MTE / Radar SIT</p>
+            <p class="text-xs md:text-sm text-gray-500 mt-4">Relatório 2020 sit oit 1</p>
+          </div>
+        </div>
+    </div>
+</section>
+    </div>
+
+    <!-- FOOTER -->
+    <footer id="denuncia" class="bg-gov-blue text-white mt-12">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 px-6 md:px-12 py-12">
+            <div>
+                <h3 class="font-bold text-lg mb-3">Conecta Cidadão</h3>
+                <p class="text-xs text-gray-300 leading-relaxed">
+                    Projeto informativo dedicado à promoção do trabalho decente e ao combate ao trabalho análogo à escravidão no Brasil.
+                </p>
+            </div>
+            <div>
+                <h4 class="uppercase text-xs font-bold tracking-widest text-gov-yellow mb-3">Navegação</h4>
+                <ul class="flex flex-col gap 2 text-sm text-gray-200">
+                    <li><a href="#inicio" class="hover:underline">Início</a></li>
+                    <li><a href="#sobre" class="hover:underline">Sobre o Tema</a></li>
+                    <li><a href="#dados" class="hover:underline">Dados e Estatísticas</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="uppercase text-xs font-bold tracking-widest text-gov-yellow mb-3">Canais Oficiais</h4>
+                <ul class="flex flex-col gap2 text-sm text-gray-200">
+                    <li>Sistema Ipê (MTE)</li>
+                    <li>Disque 100 (Direitos Humanos)</li>
+                    <li>Ministério Público do Trabalho (MPT)</li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="uppercase text-xs font-bold tracking-widest text-gov-yellow mb-3">Fontes de Dados</h4>
+                <ul class="flex flex-col gap 2 text-sm text-gray-200">
+                    <li>Radar SIT / MTE</li>
+                    <li>IBGE / PNAD Contínua</li>
+                    <li>IPEA</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+    
+</html>
